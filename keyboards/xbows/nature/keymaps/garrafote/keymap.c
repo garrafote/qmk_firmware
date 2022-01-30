@@ -140,7 +140,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,   KC_QUOT,  KC_COMM,  KC_DOT,   KC_P,     KC_Y,                         KC_F,     KC_G,     KC_C,     KC_R,     KC_L,     KC_SLSH,  KC_EQL,   KC_BSLS,  KC_PGUP,
     KC_ESC,   KC_A,     KC_O,     KC_E,     KC_U,     KC_I,     KC_BSPC,            KC_D,     KC_H,     KC_T,     KC_N,     KC_S,     KC_MINS,  KC_ENT,             KC_PGDN,
     KC_LSFT,  KC_SCLN,  KC_Q,     KC_J,     KC_K,     KC_X,     KC_ENT,             KC_B,     KC_M,     KC_W,     KC_V,     KC_Z,     KC_RSFT,            KC_UP,
-    KC_LCTL,  KC_LGUI,  KC_LALT,            KC_SPC,             KC_LCTL,  KC_LSFT,  KC_MEH,             MO(2),              MO(1),    KC_RCTL,  KC_LEFT,  KC_DOWN,  KC_RGHT),
+    KC_LCTL,  KC_LGUI,  KC_LALT,            KC_SPC,             KC_LCTL,  KC_LSFT,  KC_MEH,             TG(2),              MO(1),    KC_RCTL,  KC_LEFT,  KC_DOWN,  KC_RGHT),
   // FN Key - Multimedia & Utility layer
   [1] = LAYOUT(
     RESET,    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_CALC,  KC_MYCM,  KC_MSEL,  KC_MAIL,  NK_TOGG,            EEP_RST,
